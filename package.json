@@ -8,7 +8,7 @@
     "start": "next start",
     "format:check": "prettier --check 'src/**/*.{js,jsx,ts,tsx}'",
     "format": "prettier --write .",
-    "storybook": "start-storybook -p 6006",
+    "storybook": "start-storybook -s ./public -p 6006",
     "build-storybook": "build-storybook"
   },
   "dependencies": {
